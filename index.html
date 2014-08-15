@@ -44,13 +44,13 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:ibm-db2.png;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>Enable connectivity  for your instance</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li>Update dbm cfg using svcename 50001   (or any port you want DB2 to listen on)</li>
+<li>db2set comm=tcpip     (to enable the listener for tcpip)</li>
+<li>db2stop - db2start to read these settings and create the listener</li>
 </ol>
 
   </article>
@@ -59,7 +59,7 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>Number of customers using DB2 in Belgium</h2>
   </hgroup>
   <article data-timings="">
     
@@ -105,13 +105,13 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='Enable connectivity  for your instance'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='Number of customers using DB2 in Belgium'>
          2
       </a>
     </li>

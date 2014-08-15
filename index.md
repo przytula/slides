@@ -10,15 +10,15 @@ widgets     : [bootstrap, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 --- bg:ibm-db2.png
 
-## Read-And-Delete
+## Enable connectivity  for your instance
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+1. Update dbm cfg using svcename 50001   (or any port you want DB2 to listen on)
+2. db2set comm=tcpip     (to enable the listener for tcpip)
+3. db2stop - db2start to read these settings and create the listener
 
 --- .class #id 
 
-## Slide 2
+## Number of customers using DB2 in Belgium
 
 
 --- &radio
