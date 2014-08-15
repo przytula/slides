@@ -2,7 +2,7 @@
 title       : DB2 interactive learning 
 subtitle    : An interactive course to become a DB2 for LUW Database Administrator
 author      : Guy Przytula
-job         : Consultant
+job         : Consultant 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
