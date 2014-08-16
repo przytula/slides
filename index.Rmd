@@ -20,9 +20,9 @@ mode        : selfcontained # {standalone, draft}
 
 ## Number of customers using DB2 in Belgium
 
-```{r, echo=FALSE}
+```{r, results="asis", echo=FALSE}
 library(xtable)
-print(xtable(db2[1:5,1:2]), type = "html")
+print(xtable(db2[1:5, 1:2]), type="html", html.table.attributes='class:mytable')
 ```
 
 ---
