@@ -20,6 +20,7 @@ mode        : selfcontained # {standalone, draft}
 
 ## Number of customers using DB2 in Belgium
 
+
 ```
 ## <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
 ## <!-- Sat Aug 16 10:00:23 2014 -->

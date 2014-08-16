@@ -19,7 +19,8 @@ mode        : selfcontained # {standalone, draft}
 --- .class #id 
 
 ## Number of customers using DB2 in Belgium
-```{r,echo=FALSE}
+
+```{r, echo=FALSE}
 library(xtable)
 print(xtable(db2[1:5,1:2]), type = "html")
 ```
@@ -27,6 +28,7 @@ print(xtable(db2[1:5,1:2]), type = "html")
 ---
 
 ```{r, echo=FALSE}
+
 year<-c("2000","2001","2002","2003","2004")
 cust<-c(100,200,300,400,500)
 db2<-cbind(year,cust)
