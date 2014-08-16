@@ -20,17 +20,22 @@ mode        : selfcontained # {standalone, draft}
 
 ## Number of customers using DB2 in Belgium
 
----
-
-
-```r
-year<-c("2000","2001","2002","2003","2004")
-cust<-c(100,200,300,400,500)
-db2<-cbind(year,cust)
-plot(year~cust,type="l",main="DB2 customers in BE")
+```
+## <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
+## <!-- Sat Aug 16 10:00:23 2014 -->
+## <TABLE border=1>
+## <TR> <TH>  </TH> <TH> year </TH> <TH> cust </TH>  </TR>
+##   <TR> <TD align="right"> 1 </TD> <TD> 2000 </TD> <TD> 100 </TD> </TR>
+##   <TR> <TD align="right"> 2 </TD> <TD> 2001 </TD> <TD> 200 </TD> </TR>
+##   <TR> <TD align="right"> 3 </TD> <TD> 2002 </TD> <TD> 300 </TD> </TR>
+##   <TR> <TD align="right"> 4 </TD> <TD> 2003 </TD> <TD> 400 </TD> </TR>
+##   <TR> <TD align="right"> 5 </TD> <TD> 2004 </TD> <TD> 500 </TD> </TR>
+##    </TABLE>
 ```
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+---
+
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 --- &radio
 ## Question 1
