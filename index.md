@@ -20,6 +20,17 @@ mode        : selfcontained # {standalone, draft}
 
 ## Number of customers using DB2 in Belgium
 
+---
+
+
+```r
+year<-c("2000","2001","2002","2003","2004")
+cust<-c(100,200,300,400,500)
+db2<-cbind(year,cust)
+plot(year~cust,type="l",main="DB2 customers in BE")
+```
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
 
 --- &radio
 ## Question 1
