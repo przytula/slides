@@ -8,6 +8,15 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+
+---
+
+## Statement
+
+The charts/tables included in this presentation are not based on real figures.
+
+It is just to demonstrate the features of slidify
+
 --- bg:ibm-db2.png
 
 ## Enable connectivity  for your instance
@@ -32,6 +41,8 @@ mode        : selfcontained # {standalone, draft}
    </TABLE>
 
 ---
+
+Simple chart showing the number of customers in Belgium
 
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
