@@ -16,10 +16,12 @@ mode        : selfcontained # {standalone, draft}
 The charts/tables included in this presentation are not based on real figures.
 
 It is just to demonstrate the features of slidify
+<br/>
+<br/>
+<br/>
+<br/>
 
-
-
-<div style='text-align: center;'>
+<div style='text-align: right;'>
     <img height='560' src='ibm-db2.png' />
 </div>
 
