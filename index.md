@@ -17,6 +17,12 @@ The charts/tables included in this presentation are not based on real figures.
 
 It is just to demonstrate the features of slidify
 
+
+
+<div style='text-align: center;'>
+    <img height='560' src='ibm-db2.png' />
+</div>
+
 --- bg:ibm-db2.png
 
 ## Enable connectivity  for your instance
@@ -59,6 +65,9 @@ There is only port used by the instance
 
 *** .explanation
 SVCENAME is a dbm config setting specifyng the port number the instance is listening on
+
+
+
 
 
 
